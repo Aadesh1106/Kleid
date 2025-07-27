@@ -7,35 +7,35 @@ A full-stack e-commerce application built with the MERN stack (MongoDB, Express.
 ![React](https://img.shields.io/badge/React-18.3.1-blue.svg)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Latest-green.svg)
 
-## 🚀 Features
+##  Features
 
 ### Customer Frontend
-- 🛍️ Product browsing and search
-- 🛒 Shopping cart management
-- 👤 User authentication (Login/Signup)
-- 📱 Responsive design for all devices
-- 💳 Order placement and tracking
-- 🔍 Advanced product filtering
-- 📧 Email notifications
+-  Product browsing and search
+-  Shopping cart management
+-  User authentication (Login/Signup)
+-  Responsive design for all devices
+-  Order placement and tracking
+-  Advanced product filtering
+-  Email notifications
 
 ### Admin Dashboard
-- 📊 Product management (Add/Edit/Delete)
-- 📦 Order management and tracking
-- 👥 User management
-- 📈 Sales analytics
-- 🖼️ Image upload with Cloudinary
-- 📋 Inventory management
+-  Product management (Add/Edit/Delete)
+-  Order management and tracking
+-  User management
+-  Sales analytics
+-  Image upload with Cloudinary
+-  Inventory management
 
 ### Backend API
-- 🔐 JWT-based authentication
-- 🛡️ Secure password hashing with bcrypt
-- ☁️ Cloud image storage (Cloudinary)
-- 💾 MongoDB database integration
-- 🔄 RESTful API endpoints
-- 🛒 Cart management
-- 💰 Payment integration (Razorpay)
+-  JWT-based authentication
+-  Secure password hashing with bcrypt
+-  Cloud image storage (Cloudinary)
+-  MongoDB database integration
+-  RESTful API endpoints
+-  Cart management
+-  Payment integration (Razorpay)
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend (Customer & Admin)
 - **React.js** 18.3.1 - UI Library
@@ -56,7 +56,7 @@ A full-stack e-commerce application built with the MERN stack (MongoDB, Express.
 - **Cloudinary** - Image Storage
 - **Razorpay** - Payment Gateway
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Kleid/
@@ -83,7 +83,7 @@ Kleid/
 └── README.md
 ```
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -165,7 +165,7 @@ VITE_BACKEND_URL=http://localhost:4000
 npm run dev
 ```
 
-## 🚀 Running the Application
+##  Running the Application
 
 ### Development Mode
 Open 3 terminal windows:
@@ -190,7 +190,7 @@ cd admin && npm run dev
 - **Admin Dashboard:** http://localhost:5174
 - **Backend API:** http://localhost:4000
 
-## 📚 API Documentation
+##  API Documentation
 
 ### Authentication Endpoints
 ```
@@ -222,7 +222,7 @@ GET /api/order/list - Get all orders (Admin)
 POST /api/order/status - Update order status (Admin)
 ```
 
-## 🔐 Authentication Flow
+##  Authentication Flow
 
 1. User registers/logs in via frontend
 2. Backend validates credentials
@@ -232,7 +232,7 @@ POST /api/order/status - Update order status (Admin)
 6. Backend middleware validates token
 7. Access granted to protected routes
 
-## 🛒 Shopping Cart Logic
+##  Shopping Cart Logic
 
 - Cart data stored in React Context
 - Persistent storage in localStorage
@@ -240,14 +240,14 @@ POST /api/order/status - Update order status (Admin)
 - Real-time cart count updates
 - Size and quantity management
 
-## 💳 Payment Integration
+##  Payment Integration
 
 - Razorpay payment gateway integration
 - Secure payment processing
 - Order confirmation system
 - Payment status tracking
 
-## 🎨 UI/UX Features
+##  UI/UX Features
 
 - Responsive design (mobile-first)
 - Modern Tailwind CSS styling
@@ -256,7 +256,7 @@ POST /api/order/status - Update order status (Admin)
 - Smooth animations and transitions
 - Intuitive navigation
 
-## 🔧 Build & Deployment
+##  Build & Deployment
 
 ### Frontend Build
 ```bash
@@ -278,7 +278,7 @@ cd backend
 npm start
 ```
 
-## 📝 Environment Variables
+##  Environment Variables
 
 ### Backend (.env)
 ```env
@@ -304,7 +304,7 @@ VITE_BACKEND_URL=http://localhost:4000
 VITE_BACKEND_URL=http://localhost:4000
 ```
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Run ESLint
@@ -314,7 +314,7 @@ npm run lint
 npm run build
 ```
 
-## 🚀 Deployment
+##  Deployment
 
 ### Vercel Deployment
 The project includes `vercel.json` files for easy deployment:
@@ -330,7 +330,7 @@ The project includes `vercel.json` files for easy deployment:
 3. Update environment variables
 4. Configure domain and SSL
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/AmazingFeature`)
@@ -338,18 +338,22 @@ The project includes `vercel.json` files for easy deployment:
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Developer
+##  Developers
 
 **N. Aadesh**
+**Shyam sundar**
 - GitHub: [@Aadesh1106](https://github.com/Aadesh1106)
 - LinkedIn: [Aadesh-N](https://linkedin.com/in/Aadesh-N)
 - Email: aadeshn45@gmail.com
+- Github : [@Shyam0709](https://github.com/Shyam0709)
+- LinkedIn : [Shyam Sundar](https://www.linkedin.com/in/shyamsundar0709/)
+  
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - React team for the amazing library
 - Vite for the fast build tool
@@ -360,4 +364,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-⭐ **Star this repository if you found it helpful!** ⭐
+ 
